@@ -1,0 +1,19 @@
+{
+  "name": "real-time-chat-system",
+  "version": "1.0.0",
+  "description": "Real Time Chat System using Nodejs, Expressjs and Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "socket.io",
+    "chat",
+    "real",
+    "time"
+  ],
+  "author": "",
+  "license": "ISC"
+}
