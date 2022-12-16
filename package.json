@@ -4,7 +4,7 @@
   "description": "Real Time Chat System using Nodejs, Expressjs and Socket.io",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "concurrently \"cd backend && npm start\" \"cd frontend && npm start\" "
   },
   "keywords": [
     "nodejs",
@@ -15,5 +15,8 @@
     "time"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
 }
